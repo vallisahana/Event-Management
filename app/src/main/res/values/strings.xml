@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Event Management</string>
+
+    <string-array name="events">
+        <item>Select Event</item>
+        <item>Marriage</item>
+        <item>Birthday</item>
+        <item>College Fest</item>
+        <item>Stage Show</item>
+        <item>Corporate</item>
+        <item>Non-Corporate</item>
+
+    </string-array>
+
+    <string-array name="country">
+        <item>Select Category </item>
+        <item>North Indian</item>
+        <item>South Indian</item>
+        <item>Chinese</item>
+
+    </string-array>
+
+</resources>

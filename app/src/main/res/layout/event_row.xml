@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#CCC2C2"
+    app:contentPadding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <TextView
+                        android:text="Customer Name:  "
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txtcustname"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:text="name here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Event Name:"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txteventname"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:text="name here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Event Date:"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txteventdate"
+                        android:text="email here"
+
+                        android:textSize="17dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                </TableRow>
+
+
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Select Event:"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txtselectevent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="password here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+
+
+                </TableRow>
+
+
+                <TableRow>
+                    <TextView
+                        android:text="Category:"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txtcategory"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="phone here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="No of People:"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txtnofpeople"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="phone here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Event Venue:"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txteventvenue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="phone here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:text="Phone Number:"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:textColor="#000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/txtphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="phone here"
+                        android:textColor="#000"
+                        android:textSize="17dp">
+
+                    </TextView>
+
+
+                </TableRow>
+
+
+
+            </TableLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

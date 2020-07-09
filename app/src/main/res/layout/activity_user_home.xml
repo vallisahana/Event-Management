@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bac"
+    android:layout_height="match_parent"
+    tools:context=".UserHomeActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:titleTextColor="#fff"
+        app:title="Event Details"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/editcustname"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:hint="Customer name"
+        android:inputType="text"
+        android:textColorHint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editeventname"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:hint="Eventname"
+        android:inputType="text"
+        android:textColorHint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/editeventdate"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:gravity="fill"
+        android:hint="Event Date"
+        android:inputType="date"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307">
+
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinnerevent"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.413">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinnercountry"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/editeventpeople"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:hint="No of People"
+        android:inputType="number"
+        android:textColorHint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editeventvenue"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:hint="Event Venue"
+        android:inputType="text"
+        android:textColorHint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.711">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editeventphone"
+        android:layout_width="301dp"
+        android:layout_height="50dp"
+        android:background="@drawable/register"
+        android:hint="Phone Number"
+        android:textColorHint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.812">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="302dp"
+        android:layout_height="64dp"
+        android:background="#1B1A1B"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
